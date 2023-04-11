@@ -1,0 +1,76 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Howdy", "Greetings", "Hey, What’s up?", "Morning/afternoon/evening"
+         , "What’s going on?", "Hey! There she/he is", "How’s everything?", "How are things?"
+         , "Good to see you", "Great to see you", "Nice to see you", "What’s happening"
+         , "How’s it going?", "Good evening", "Hey, boo", "How are you?", "Nice to meet you!", "Long time no see"
+         , "What’s the good word?", "What’s new?", "Look who it is!"
+         , "Example: Look who it is!", "How have you been?", "Nice to see you again.", "Greetings and salutations!"
+         , "How are you doing today?", "What have you been up to?", "How are you feeling today?", "Look what the cat dragged in!"
+         , "Good afternoon, sir, how are you today?"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "Goodbye", "Bye-bye", "Farewell", "Cheerio", "See you", "I’m out"
+         , "Take care", "Take it easy", "I’m off", "Gotta go!", "Good night", "Bye for now"
+         , "See you later", "Keep in touch", "Catch you later", "See you soon", "I gotta take off"
+         , "Talk to you later", "See you next time", "Have a good one"
+         , "Have a good (nice) day", "I’ve got to get going/ I must be going"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks","Many thanks","Thanks a lot","Thanks a bunch","Thank you very much"
+         ,"It’s very kind of you","I really appreciate it","Thank you for everything"
+         ,"I owe you one","I really appreciate your help","I’m so grateful","Thanks a million"
+         ,"Thanks for everything","Thanks so much","I can’t thank you enough"
+         ,"I cannot express my appreciation","I appreciate your time"
+         ,"A million thanks to you","I owe you big time","I truly appreciate you","Thanks a ton"
+         ,"How thoughtful of you!","I’ll forever be grateful","Please accept my deepest thanks"
+         ,"You’re too kind","You are an angel","You are the best","You have my gratitude"
+         ,"You made my day","You saved my day","You’re a dear","You’re a life saver"
+         ,"You’re awesome","You’re great","You’ve saved my life","Accept my endless gratitude"
+         ,"All I can say is, Thanks!","All my love and thanks to you","Consider yourself heartily thanked"
+         ,"How can I ever possibly thank you","How can I ever thank you enough","How can I show you how grateful I am?"
+         ,"I couldn’t have done it without you","I do not know what I would do without you","I don’t know what to say!"
+         ,"Oh, you shouldn’t have!","I humbly thank you","Please accept my best thanks","I’m grateful for your assistance"
+         ,"I’m really grateful for your help","It is hard to find words to express my gratitude"
+         ,"It was so awesome of you","I really appreciate everything you’ve done","I really want to thank you for your help"
+         ,"I thank you from the bottom of my heart","I thank you most warmly"
+         ,"I want you to know how much I value your support","I wanted to thank you as soon as possible"
+         ,"I will never forget what you have done","I wish to thank everyone who pitched in","If anyone deserve thanks, it’s you"
+         ,"Your generosity overwhelms me","What would I do without you?"
+         ,"Words can’t describe how thankful I am","My gratitude knows no bounds."],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+          
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["I'm sorry, please give me more/additional information", "Excuse me, could you say it again"
+         , "Ever so sorry, please give me more/additional information", "How stupid/careless/thoughtless of me, I can't understand you"
+         , "I apologize, please give me more/additional information", "I had that wrong, I can't understand you", "I hope you can forgive me, could you say it again"
+         , "I owe you an apology, could you say it again", "I sincerely apologize, please give me more/additional information"
+         , "I take full responsibility, please give me more/additional information", "I want to apologize, could you say it again"
+         , "I wanted to tell you I’m sorry, could you say it again", "I was wrong about that, could you say it again"
+         , "I'd like to apologize, could you say it again", "I'd like to apologize for how I reacted yesterday, I am not sure I understand"
+         , "I'm so/very/terribly sorry, I am not sure I understand", "my apologies, I can't understand you"
+         , "my fault, bro, I am not sure I understand", "my mistake, could you say it again", "Oh my goodness! I’m so sorry I can't understand you"
+         , "Oh, my bad, could you say it again", "Pardon, I can't understand you", "Please accept our apologies, could you say it again"
+         , "Please don’t be mad at me, could you say it again", "Please excuse my ignorance, I am not sure I understand"
+         , "Sorry about that, I am not sure I understand", "Sorry, my apologies I had that wrong, please give me more/additional information"
+         , "Sorry It was all my fault, could you say it again", "That was wrong of me, please give me more/additional information", "That's my fault, I am not sure I understand"
+         , "Whoops! Sorry!, I am not sure I understand", "I beg your pardon, could you say it again","my bad, could you say it again"
+         , "Excuse me for interrupting, I am not sure I understand", "I was wrong Can you forgive me?, could you say it again"
+         , "Pardon me for being so rude, please give me more/additional information"],
+         "context": [""]
+        },
+        {
+        "tag": "time",
+        "patterns": ["what time is it now?", "what is the current time?", "When is it now?"],
+        "responses": ["It's nine o'clock in the evening", "The time is nine o'clock in the evening.", "It's 9 p.m."],
+        "context": [""]
+      }
+   ]
+}
